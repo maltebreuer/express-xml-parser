@@ -1,4 +1,4 @@
-# express-xml-parser
+# express-xml-parser [![Build Status](https://travis-ci.org/maltebreuer/express-xml-parser.svg)](https://travis-ci.org/maltebreuer/express-xml-parser)
 XML parser middleware for Express
 
 # Purpose
