@@ -2,10 +2,13 @@
   "name": "express-xml-parser",
   "version": "1.0.0",
   "private": true,
-  "author" : "Malte Breuer <malte.breuer@gmail.com>",
+  "author": "Malte Breuer <malte.breuer@gmail.com>",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "dependencies": {
-    "raw-body": "~1.1.5",
-    "xml2js": "~0.4.2",
-    "type-is": "~1.2.0"
+    "raw-body": "^2.1.4",
+    "type-is": "^1.6.9",
+    "xml2js": "~0.4.2"
   }
 }

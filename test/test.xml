@@ -1,0 +1,7 @@
+<TAG>
+  <ELEMENT></ELEMENT>
+  <ELEMENT>text</ELEMENT>
+  <ELEMENT/>
+  <ELEMENT attr="test"></ELEMENT>
+  <ELEMENT attr="test"/>  
+</TAG>
