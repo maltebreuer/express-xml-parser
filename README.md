@@ -1,20 +1,18 @@
 # express-xml-parser [![Build Status](https://travis-ci.org/maltebreuer/express-xml-parser.svg)](https://travis-ci.org/maltebreuer/express-xml-parser)
-XML parser middleware for Express
+XML parser middleware for Express.
 
 # Purpose
-This XML parser can be used by any node.js application to create a parsed XML as part of the request object.
-It uses
+The parser can be used by any Express.js application to retrieve a Javascript representation of an XML that is sent to the Express app with header `application/xml`.
 
-- xml2js
-- raw-body
+You can use the middleware in the same way other Express middleware is used:
 
-as packages to parse the body and can be inserted as a middleware in express by using:
-
-    var xmlParser = require('./xml-parser');
+    var expressXmlParser = require('express-xml-parser');
     ...
     app.use(xmlParser());
     app.use(bodyParser.json());
     ...
+
+# Changes to the req object
 
 If the XML can be parsed the `req._xml` flag is set to `true`.
 
