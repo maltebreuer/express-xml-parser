@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "author": "Malte Breuer <malte.breuer@gmail.com>",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
