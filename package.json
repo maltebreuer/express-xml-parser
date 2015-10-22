@@ -5,11 +5,16 @@
   "author": "Malte Breuer <malte.breuer@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=testing ./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
     "raw-body": "^2.1.4",
     "type-is": "^1.6.9",
     "xml2js": "~0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.3"
   }
 }
